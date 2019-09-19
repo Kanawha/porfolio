@@ -1,6 +1,6 @@
-# porfolio
-A portfolio of work from Kanawha Design Studio
+# Kanawha Design Studio - Portfolio
+A portfolio of work from [Kanawha Design Studio](https://kanawha.design)
 
-## Authors
-Jacob Sayles
-Katie Davis-Sayles
+## Team Members
+ - Katie Davis-Sayles
+ - Jacob Sayles
