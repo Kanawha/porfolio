@@ -1,5 +1,5 @@
 ---
 layout: post
-title:  "Powell River Creative Economy & Innovation Initiative and Powell River Educational Services Society"
+title:  "Powell River Creative Economy & Innovation Initiative"
 location:  "Powell River, BC"
 ---
