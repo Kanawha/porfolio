@@ -1,0 +1,11 @@
+{
+  {% for post in site.posts %}
+    "post": {
+      "title": "{{ post.title }}"
+      "date": "{{ post.date | date: '%Y-%m-%d' }}",
+      "location": "{{ post.location }}",
+      "project_url": "{{ post.project_url }}",
+      "short_description": "{{ post.content | strip_html | truncatewords: 30 }}",
+    },
+  {% endfor %}
+}

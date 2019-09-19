@@ -1,0 +1,36 @@
+# Site settings
+title:          Kanawha Design
+description:    "A portfolio of work from Kanawha Design Studio"
+url:            "https://kanawha.github.io/portfolio"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Kanawha Design Studio
+  url:          https://kanawha.design
+  email:        hello@kanawha.design
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock ]
