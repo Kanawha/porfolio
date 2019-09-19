@@ -1,4 +1,4 @@
-# Kanawha Design Studio - Portfolio
+# Portfolio
 A portfolio of work from [Kanawha Design Studio](https://kanawha.design)
 
 ## Team Members
