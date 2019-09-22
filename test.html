@@ -1,0 +1,20 @@
+<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<div id="placeholder"></div>
+
+<script>
+  $.getJSON('https://work.kanawha.design/rawdata.json', function(dataset) {
+    var output="<ul>";
+    for (var i in dataset) {
+      for (var j in dataset[i]) {
+        output +="<li>"
+          + dataset[i][j].title
+          + " | "
+          + dataset[i][j].location
+          + "</li>";
+      }
+    }
+    output+="</ul>";
+    document.getElementById("placeholder").innerHTML=output;
+  })
+</script>
